@@ -1,4 +1,3 @@
-// give the user a nice default project!
 ThisBuild / organization := "uk.ac.imperial"
 ThisBuild / scalaVersion := "2.13.10"
 
