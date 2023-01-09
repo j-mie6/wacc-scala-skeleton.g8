@@ -21,7 +21,7 @@ object Main {
             )
 
         expr.parse(args.head) match {
-            case Success(x) => println(s"${args.head} = $x")
+            case Success(x) => println(s"\${args.head} = \$x")
             case Failure(msg) => println(msg)
         }
     }
