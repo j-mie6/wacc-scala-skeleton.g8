@@ -15,6 +15,8 @@ lazy val root = (project in file(".")).
     organization := "uk.ac.imperial.doc",
     scalaVersion := "2.13.10",
 
+    sbtAssemblySettings,
+
     libraryDependencies += "com.github.j-mie6" %% "parsley" % "$parsley_version$",
     libraryDependencies += "org.scalatest" %% "scalatest" % "$scalatest_version$" % Test,
 
