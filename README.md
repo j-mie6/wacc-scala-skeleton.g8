@@ -1,4 +1,4 @@
-A [Giter8][g8] template for WACC groiups who want to do WACC in Scala with `parsley`!
+A [Giter8][g8] template for WACC groups who want to do WACC in Scala with `parsley`!
 
 Template license
 ----------------
